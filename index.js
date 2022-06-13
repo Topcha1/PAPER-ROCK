@@ -42,6 +42,6 @@ function checkWinner (){
         return (player = "PAPER") ? 'You WIN!': "You Lose"
     }
     else if (computer == "SCISSORS") {
-        return (player = "ROCK")? "You Win" : "You Lose"
+        return (player = "ROCK")? "You WIN" : "You Lose"
     }
 }
