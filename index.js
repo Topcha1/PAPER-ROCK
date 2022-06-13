@@ -3,6 +3,10 @@ const computerText = document.querySelector('#computerText');
 const resultText = document.querySelector('#resultText');
 const choiceBtns = document.querySelectorAll('.choiceBtn');
 
+let player;
+let computer;
+let result;
+
 
 choiceBtns.forEach(button => button.addEventListener('click', () =>{
     player = button.textContent;
